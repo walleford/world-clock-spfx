@@ -2,7 +2,7 @@
 
 .worldClocks {
   overflow: hidden;
-  padding: 1em;
+  padding: 0;
   color: "[theme:bodyText, default: #323130]";
   color: var(--bodyText);
   &.teams {
@@ -10,13 +10,20 @@
   }
 }
 
-.container {
-  width: 100%;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 2fr);
+  gap: 10px;
+  grid-template-rows: minmax(5px, auto);
+  text-align: center; 
+}
+
+.title {
+  font-size: 12px;
+  font-weight:bold;
   text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+  text-overflow: none;
+  width: auto;
 }
 
 .digitalClock {

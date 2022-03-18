@@ -4,6 +4,4 @@ export interface IWorldClocksProps {
   environmentMessage: string;
   hasTeamsContext: boolean;
   userDisplayName: string;
-  timeZone: string;
-  city: string;
 }

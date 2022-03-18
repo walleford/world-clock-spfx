@@ -20,6 +20,12 @@ Short summary on functionality and used technologies.
 ## Prerequisites
 
 > Any special pre-requisites?
+react
+react-dom
+moment
+moment-timezone
+ajv
+react-live-clock
 
 ## Solution
 
